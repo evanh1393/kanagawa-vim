@@ -83,11 +83,4 @@ return {
       )
     end,
   },
-
-  {
-    "AstroNvim/astrocore",
-    opts = {
-      colorscheme = "kanagawa",
-    },
-  },
 }
