@@ -77,4 +77,10 @@ return {
     "jwalton512/vim-blade",
     ft = { "blade" },
   },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false, -- load during startup
+    priority = 1000, -- load before other plugins
+    config = function() vim.cmd "colorscheme cyberdream" end,
+  },
 }
